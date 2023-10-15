@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bit-group/static/css/main.1fb9146c.css",
+    "main.js": "/bit-group/static/js/main.1fcbc1de.js",
+    "index.html": "/bit-group/index.html",
+    "main.1fb9146c.css.map": "/bit-group/static/css/main.1fb9146c.css.map",
+    "main.1fcbc1de.js.map": "/bit-group/static/js/main.1fcbc1de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fb9146c.css",
+    "static/js/main.1fcbc1de.js"
+  ]
+}
