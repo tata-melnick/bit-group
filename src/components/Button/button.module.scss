@@ -1,0 +1,29 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #ffffff;
+  transition: .1s;
+  border-radius: 3px;
+  border: none;
+}
+
+.btnSuccess {
+  background: #20af26;
+
+  &:hover {
+    background:#2f7d33;
+  }
+}
+
+.btnError {
+  background: #b02820;
+
+  &:hover {
+    background:#7d332f;
+  }
+}

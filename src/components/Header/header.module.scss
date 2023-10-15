@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  gap: 40px;
+  background-color: #087a04;
+  padding: 10px 15%;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+}
+
+.icons {
+  display: flex;
+  gap: 40px;
+}
+
+.icon {
+  position: relative;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+}
+
+.confirmModal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  row-gap: 10px;
+
+  .modalActions {
+    display: flex;
+    column-gap: 5px;
+  }
+}
+
+.addModal {
+  align-items: center;
+}
+
+.input {
+  width: 100%;
+  height: 30px;
+  padding: 10px 5px;
+  border-radius: 3px;
+  border: 1px solid #20af2650;
+
+  &:focus-visible {
+    outline: none;
+    border: 1px solid #20af26;
+  }
+}
